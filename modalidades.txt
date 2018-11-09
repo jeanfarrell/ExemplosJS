@@ -1,4 +1,7 @@
 {
-	"modalidades": ["a", 1]
-
+	"modalidades": [
+					{"id_modalidade":1, "ds_modalidade": "Mod 1"}, 
+					{"id_modalidade":2, "ds_modalidade": "Mod 2"}, 
+					{"id_modalidade":3, "ds_modalidade": "Mod 3"}
+				   ]
 }
