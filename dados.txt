@@ -1,0 +1,91 @@
+{
+	"eventos":{
+		"12345": {
+			"id_evento": "12345", 
+			"nm_evento": "Evento 1", 
+			"dt_evento": "2019-01-01",
+			"dt_inicio_inscricao": "2019-01-01",
+			"dt_fim_inscricao": "2019-01-01",
+			"dt_limite_troca_camiseta": "2019-01-01",
+			"tags": ["esportes", "lazer", "games"],
+			"ativo": "1"
+		}
+	},
+	"modalidades":{
+		"11": {
+			"id_modalidade": "11",
+			"nm_modalidade": "Modalidade 1",			
+			"ds_descricao": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",			
+			"id_evento": "12345",
+			"ativo": "1"			
+		},
+		"22": {
+			"id_modalidade": "22",
+			"nm_modalidade": "Modalidade 2",			
+			"ds_descricao": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",			
+			"id_evento": "12345",
+			"ativo": "1"			
+		}
+	},
+	"categorias": {
+		"111": {
+			"id_categoria": "111",
+			"nm_categoria": "Categoria1",
+			"id_modalidade": "11",
+			"ativo": "1"
+		},
+		"222": {
+			"id_categoria": "222",
+			"nm_categoria": "Categoria 2",
+			"id_modalidade": "11",
+			"ativo": "1"
+		},
+		"333": {
+			"id_categoria": "333",
+			"nm_categoria": "Categoria 3",
+			"id_modalidade": "22",
+			"ativo": "1"
+		},
+		"444": {
+			"id_categoria": "444",
+			"nm_categoria": "Categoria 4",
+			"id_modalidade": "22",
+			"ativo": "1"
+		}
+	},
+	"lotes": [
+		{
+			"id_lote": "1", 
+			"nm_lote": "Lote 01", 
+			"dt_fim": "2019-12-12",
+			"id_evento": "12345"
+		},
+		{
+			"id_lote": "2", 
+			"nm_lote": "Lote 02", 
+			"id_evento": "12345"
+		}
+	],
+	"categorias_valores": {
+		"1": {
+			"id_categoria_valor":"1", 
+			"id_categoria":"111", 
+			"id_lote":"1"
+		},
+		"2": {
+			"id_categoria_valor":"2", 
+			"id_categoria":"222", 
+			"id_lote":"2"
+		},
+		"3": {
+			"id_categoria_valor":"3", 
+			"id_categoria":"333", 
+			"id_lote":"1"
+		},
+		"4": {
+			"id_categoria_valor":"4", 
+			"id_categoria":"444", 
+			"id_lote":"2"
+		}
+	}
+}

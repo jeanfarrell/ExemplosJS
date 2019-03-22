@@ -1,5 +1,0 @@
-{
-	"id_evento": 11111,
-	"ds_evento": "Evento 1",
-	"status": 1
-}
